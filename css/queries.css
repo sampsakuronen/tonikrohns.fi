@@ -1,0 +1,42 @@
+/* 320px (iPhone) */
+@media screen and (max-width:320px) {
+}
+/* 480px (WVGA - Low End Windows Phone) */
+@media screen and (max-width:480px) {
+	.wrapper { background: #f3f5f8; height: 800px; }
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+	.hero .hero-title-background {margin-top: 20px;}
+
+}
+/* xGA iPad */
+@media screen and (max-width:1023px) {
+	.swag { background-attachment: scroll; }
+	.subscribe { background-attachment: scroll; }
+	.toni {width: 100%;}
+	.toni-photo {display: block; width: 70%; margin: 0 auto;}
+	.wp3 { background-image: none;}
+	.wrapper {height: 950px !important;}
+}
+@media screen and (max-width:1050px) {
+	.col-md-5 p {
+		font-size: 13px;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	.wrapper {height: 740px !important;}
+}
+
+/* Bootstrap 990px Breakpoint to 480px */
+@media screen and (min-width:480px) and (max-width:991px) {
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wrapper { background: #f3f5f8; height: 840px; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+}
